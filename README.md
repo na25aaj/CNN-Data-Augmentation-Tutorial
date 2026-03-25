@@ -1,5 +1,5 @@
 CNN Data Augmentation Tutorial
-How augmentation strategies affect generalisation — a controlled experiment on CIFAR-10
+How augmentation strategies affect generalisation: A controlled experiment on CIFAR-10
 License: MIT Python 3.8+ PyTorch
 
 Overview
@@ -15,23 +15,14 @@ Cutout	Random rectangular region erased
 Combined	Flip + Crop + Colour Jitter together
 Mixup	Linear interpolation of image pairs and their labels
 Repository Structure
+
 cnn-augmentation-tutorial/
 ├── notebook/
-│   └── data_augmentation_tutorial.ipynb   # Main Jupyter notebook (fully runnable)
+│   └── data_augmentation_tutorial.ipynb   # Main Jupyter notebook 
 ├── docs/
 │   └── index.html                         # Tutorial web page
 ├── requirements.txt                       # Python dependencies
-├── LICENSE                                # MIT Licence
 └── README.md                              # This file
-Quick Start
-1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/cnn-augmentation-tutorial.git
-cd cnn-augmentation-tutorial
-2. Install dependencies
-pip install -r requirements.txt
-3. Run the notebook
-jupyter notebook notebook/data_augmentation_tutorial.ipynb
-The notebook will: - Download CIFAR-10 automatically (first run only, ~170 MB) - Train six CNN models sequentially (~10–15 min CPU / ~3–5 min GPU) - Save all figures to the working directory - Print a summary comparison table
 
 Requirements
 See requirements.txt. Key dependencies:
